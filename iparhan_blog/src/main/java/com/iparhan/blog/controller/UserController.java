@@ -58,7 +58,7 @@ public class UserController {
     }
 
     //登录方法
-    @RequestMapping("/addlogin")
+    @RequestMapping("/iparhanlogin")
     public String login(HttpServletRequest request){
         String username = request.getParameter("username");
         String password = request.getParameter("password");
